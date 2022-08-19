@@ -236,7 +236,69 @@ git branch
 
 
 
-## 参考资料
+## 21 gitblit搭建
+
+### 21.1 下载，安装略
+
+### 21.2 配置gitblit
+
+  1. 创建用于存储资料的文件夹。（D:\git\Repository）
+
+  2. 找到Gitblit目录下的data文件下的 **default.properties** 文件，用“记事本”打开,修改以下几处：
+
+     git.repositoriesFolder = D:\git\Repository
+
+     server.httpPort = 12301
+
+     server.httpBindInterface = localhost
+
+     server.httpsBindInterface = localhost
+
+  3. 保存关闭文件
+
+  4. 运行gitblit.cmd
+
+  5. 在浏览器中打开localhost:12301即可使用
+
+     ![屏幕截图 2022-08-19 184815.png](https://dd-static.jd.com/ddimg/jfs/t1/39291/10/17954/146124/62ff7cfeE4ee7fcb7/34764c62f573ff5a.png)
+
+## 22 TortoiseGit
+
+### 22.1 安装略
+
+### 22.2 创建本地仓库
+
+ 1. Clone 仓库
+
+    ![318519-20171026104413269-895098843.png](https://dd-static.jd.com/ddimg/jfs/t1/73937/5/22048/23355/62ff7eddEbf084c56/a08d9e8bc2a03719.png)
+
+​	
+
+	2.  创建本地库
+
+![创建本地库.png](https://dd-static.jd.com/ddimg/jfs/t1/50375/12/21018/24340/62ff7f71Ec75e88df/df2ad6dfdc5ee15a.png)
+
+ 3. Commit
+
+    ![commit.png](https://dd-static.jd.com/ddimg/jfs/t1/123198/39/30549/23664/62ff7fe4E94c895b9/262a0619ae53aaa5.png)
+
+​	![设置.png](https://dd-static.jd.com/ddimg/jfs/t1/19909/19/18650/196380/62ff805fE4d34d32f/0403dd10fcee2aed.png)
+
+4. Push
+
+![提交到版本库.png](https://dd-static.jd.com/ddimg/jfs/t1/131255/19/28864/25352/62ff80aeE901c1eec/802c0448452361cd.png)
+
+![推送提示.png](https://dd-static.jd.com/ddimg/jfs/t1/86631/19/30148/23706/62ff8206E64c9eaa5/9167d5b7c3e8187d.png)
+
+5. Pull
+
+   ![Pull.png](https://dd-static.jd.com/ddimg/jfs/t1/117505/1/26893/65632/62ff825aE67480e04/e4846606feaa4867.png)
+
+## 23 参考资料
 
 [廖雪峰git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
+
+[Gitblit服务器搭建](https://blog.csdn.net/qq_39715000/article/details/120834687)
+
+[Tortoisegit图文使用教程](https://www.cnblogs.com/cndevops/p/15726349.html)
 
