@@ -65,8 +65,8 @@ git 可以add多次不同的文件，commit可以一次提交很多文件
 git status命令可以随时掌握工作区/仓库当前的状态 （显示有变更的文件），有以下几种结果：
 
     1. Changes not staged for commit：文件更改了，但是还未进入暂存区 ，需要add；
-      2. Changes to be committed：文件已进入暂存区，但还未提交到版本库，需要commit；
-        3. Untracked files：表示该文件还从来没有被添加进版本库，这是新添加的文件；
+          2. Changes to be committed：文件已进入暂存区，但还未提交到版本库，需要commit；
+                3. Untracked files：表示该文件还从来没有被添加进版本库，这是新添加的文件；
 
 
 
@@ -231,4 +231,12 @@ $ git tag -d <name>
 ```
 $ git push origin --tags
 ```
+
+git branch 
+
+
+
+## 参考资料
+
+[廖雪峰git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
